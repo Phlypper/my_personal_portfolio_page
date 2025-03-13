@@ -96,13 +96,14 @@ p, li {
   font-size: 1.2em;
 }
 
-/* ====== RESPONSIVE IMAGES ====== */
 img {
-  width: 100%;
+  width: 40%;
+  max-width: 400px;
   height: auto;
   display: block;
-  max-width: 100%;
-  border-radius: 10px;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* ====== PROJECTS SECTION ====== */
@@ -176,4 +177,9 @@ footer {
   section {
     padding: 30px;
   }
+
+  img {
+    width: 70%;  /* Slightly bigger on smaller screens */
+    max-width: 300px;
+}
 }
