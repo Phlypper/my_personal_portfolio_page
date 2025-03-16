@@ -97,7 +97,7 @@ p, li {
 }
 
 img {
-  width: 40%;
+  width: 100%;
   max-width: 400px;
   height: auto;
   display: block;
@@ -115,11 +115,6 @@ article {
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-article img {
-  max-height: 200px;
-  object-fit: cover;
-}
-
 /* ====== FOOTER ====== */
 footer {
   text-align: center;
@@ -129,7 +124,7 @@ footer {
 }
 
 /* ====== MOBILE RESPONSIVE DESIGN ====== */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   /* Hide nav items by default */
   nav ul {
     display: none;
@@ -179,7 +174,7 @@ footer {
   }
 
   img {
-    width: 70%;  /* Slightly bigger on smaller screens */
+    width: 80%;
     max-width: 300px;
-}
+  }
 }
